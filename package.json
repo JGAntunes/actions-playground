@@ -1,0 +1,15 @@
+{
+  "name": "actions-playground",
+  "version": "1.0.0",
+  "description": "Boring project with the sole purpose of me trialing out some github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-ntfy:JGAntunes/actions-playground.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
