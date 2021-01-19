@@ -1,4 +1,4 @@
-name: swagger-bump
+name: test-auto-commit
 on:
   push:
     branches:
@@ -13,7 +13,7 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
-      - run: touch foobar.txt
+      - run: echo "hello" >> foobar
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Test auto commit"
