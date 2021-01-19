@@ -12,5 +12,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: '@netlify/open-api'
-        if: ${{ !steps.release.outputs.release_created }}
+          package-name: 'actions-playground'
